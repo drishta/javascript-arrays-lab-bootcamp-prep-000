@@ -31,3 +31,14 @@ function appendKitten(name)
   var kittens = [kittens, ...name];
   return kittens;
 }
+
+function prependKitten(name)
+{
+  var kittens = [...name, kittens];
+  return kittens;
+}
+
+function removeLastKitten()
+{
+  
+}
